@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "assus",
+  "version": "2.0",
+  "name": "Assus Client",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.assus.client.AssusClient"]
+  },
+  "depends": {
+    "minecraft": "*",
+    "fabricloader": "*",
+    "fabric-api": "*"
+  }
+}
